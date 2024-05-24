@@ -1,0 +1,23 @@
+{
+    "name": "xtompie/collection",
+    "autoload": {
+        "psr-4": {
+            "Xtompie\\Collection\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tomasz Pielczyk",
+            "email": "tomasz.pielczyk@gmail.com"
+        }
+    ],
+    "description": "Array wrapper",
+    "keywords": ["array", "collection"],
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit tests"
+    }
+}
